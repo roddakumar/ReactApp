@@ -1,23 +1,31 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import Exampleforclass from './component/Exampleforclass';
+import Firstfunction from './component/Firstfunction';
+import Examplejsx from './component/Examplejsx';
+
+import Parentclass from './Examplecommunicateparenttochildandchildtoparent/Parentclass';
+// import Parent from './component/Listexample/Parent';
+import Formsexample from './Formsexample'
+import Mountinglifecycle from './LifeCycle/Mountinglifecycle';
+import Parentexampleforpurecomponent from './Purecomponentexample/Parentexampleforpurecomponent';
+import Portalexample from './Portalexample';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Exampleforclass  name ='{Passing a parameter value using class  }'></Exampleforclass>
+      <Firstfunction name ='{Passing a parameter value using function  }'/>
+      <Examplejsx/>
+      <Parentclass/>
+      <Parent/> */}
+      {/* <Formsexample/> */}
+{/* <Mountinglifecycle>
+</Mountinglifecycle> */}
+
+{/* <Parentexampleforpurecomponent/> */}
+
+{/* <Portalexample/> */}
     </div>
   );
 }
